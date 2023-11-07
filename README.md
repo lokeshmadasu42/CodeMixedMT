@@ -21,7 +21,7 @@ We utilize the CALCS Shared Task English-Hinglish dataset, which is referenced i
 | Maximum number of tokens           | 287     | 370     |
 | Average number of tokens           | 12.37   | 12.6    |
 
-**Additional Statistics**
+**Additional Statistics**:
 
 | Field                               | Value  |
 |-------------------------------------|------- |
@@ -95,3 +95,6 @@ The following tables contain the BLEU scores of various transformer models:
 | mT5-small   | 8.94       | -               |
 | IndicBART   | 11.83      | -               |
 
+## Output Analysis
+
+![output examples](Eng_hinglish_output_analysis.png)
