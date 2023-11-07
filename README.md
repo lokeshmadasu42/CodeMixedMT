@@ -97,4 +97,6 @@ The following tables contain the BLEU scores of various transformer models:
 
 ## Output Analysis
 
-![output examples](Eng_hinglish_output_analysis.png)
+![output examples](Images/Eng_hinglish_output_analysis.png)
+
+***Note***: For further information, please go through the project report and slides.
