@@ -12,7 +12,6 @@ We utilize the CALCS Shared Task English-Hinglish dataset, which is referenced i
 
 ### English-Hinglish Dataset Statistics
 
-```markdown
 | Field                              | English | Hinglish |
 |------------------------------------|---------|---------|
 | Number of sentences in train data  | 8060    | 8060    |
@@ -49,7 +48,6 @@ We employ various models for translation and report the following results:
 
 To fine-tune the models, you can use the following command:
 
-```markdown
 ```bash
 python3 run_translation.py \
     --model_name_or_path google/mT5-small \
@@ -72,6 +70,8 @@ python3 run_translation.py \
     --evaluation_strategy "epoch" \
     --predict_with_generate $@ 2>&1>./mtmodel_log_eng_hindi_testing.txt
 
+```
+
 **Hyper-parameters**:
 
 | Field               | Value                  |
@@ -84,7 +84,7 @@ python3 run_translation.py \
 | Epochs              | 40                     |
 
 
-***BLEU Scores***
+**BLEU Scores**
 
 The following tables contain the BLEU scores of various transformer models:
 
